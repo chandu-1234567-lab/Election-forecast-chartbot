@@ -1,82 +1,148 @@
-# AI Photo Enhancement Chatbot
+Here is your updated README replaced with:
 
-A professional photo enhancement application with AI-powered chat capabilities. This application allows users to enhance their photos and interact with an AI assistant for image-related queries.
+# 🗳️ NLP Election Forecasting Chatbot
 
-## Features
+A professional **Election Forecasting Chatbot** powered by Natural Language Processing (NLP).
+This application allows users to ask election-related questions and receive AI-driven predictions, sentiment analysis, and trend insights.
 
-- 🖼️ **Image Enhancement**
-  - Automatic color correction
-  - Contrast and brightness adjustment
-  - Sharpness enhancement
-  - Before/After comparison
+---
 
-- 💬 **AI Chat Interface**
-  - Gemini API integration for intelligent responses
-  - Dark theme with modern UI
-  - Smooth animations and transitions
-  - Real-time image processing feedback
+## 🚀 Features
 
-## Setup Instructions
+* 🗳️ **Election Forecasting**
 
-1. **Clone the Repository**
-   ```bash
-   git clone [your-repository-url]
-   cd enhancephoto
-   ```
+  * Vote share prediction
+  * Seat projection modeling
+  * Trend analysis using historical data
+  * Sentiment-based forecasting
 
-2. **Create Virtual Environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+* 💬 **AI Chat Interface**
 
-3. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+  * NLP-powered chatbot
+  * Real-time election insights
+  * Interactive Q&A about candidates, parties, and trends
+  * Modern responsive UI
 
-4. **Environment Configuration**
-   - Create a `.env` file in the root directory
-   - Add your Gemini API key:
-     ```
-     GEMINI_API_KEY=your_api_key_here
-     ```
+* 📊 **Data Analysis**
 
-5. **Run the Application**
-   ```bash
-   python app.py
-   ```
-   - Open your browser and navigate to `http://localhost:5000`
+  * Social media sentiment analysis
+  * News headline classification
+  * Poll data aggregation
+  * Time-series forecasting
 
-## Usage
+---
 
-1. **Upload Images**
-   - Click the upload button or drag and drop images
-   - Supported formats: PNG, JPG, JPEG, WebP
-   - Maximum file size: 5MB
+## ⚙️ Setup Instructions
 
-2. **Image Enhancement**
-   - Uploaded images are automatically enhanced
-   - View before/after comparison
-   - Download enhanced images
+### 1️⃣ Clone the Repository
 
-3. **Chat with AI**
-   - Ask questions about image processing
-   - Get recommendations for further enhancements
-   - Receive detailed explanations about the enhancement process
+```bash
+git clone [your-repository-url]
+cd election-chatbot
+```
 
-## Technical Details
+---
 
-- **Backend**: Flask
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Image Processing**: Pillow (PIL)
-- **AI Integration**: Google Gemini API
-- **Environment**: Python 3.8+
+### 2️⃣ Create Virtual Environment
 
-## Contributing
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+---
 
-## License
+### 3️⃣ Install Dependencies
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4️⃣ Environment Configuration
+
+Create a `.env` file in the root directory:
+
+```
+API_KEY=your_api_key_here
+```
+
+---
+
+### 5️⃣ Run the Application
+
+```bash
+python app.py
+```
+
+Open your browser:
+
+```
+http://localhost:5000
+```
+
+---
+
+## 💡 Usage
+
+### 🗳️ Ask Election Questions
+
+* “Who is leading in the upcoming election?”
+* “Predict vote share for Party A.”
+* “Analyze sentiment of recent political news.”
+* “Show trends for the last 5 years.”
+
+---
+
+### 📊 Forecasting Models Used
+
+* Logistic Regression
+* Naive Bayes (for sentiment analysis)
+* LSTM (time-series forecasting)
+* ARIMA (poll trend prediction)
+
+---
+
+## 🛠️ Technical Stack
+
+* **Backend**: Flask / FastAPI
+* **Frontend**: HTML5, CSS3, JavaScript
+* **NLP Libraries**: NLTK, SpaCy, Transformers
+* **ML Models**: Scikit-learn, TensorFlow / PyTorch
+* **Database**: PostgreSQL / MongoDB
+* **Deployment**: Docker + Cloud (AWS/GCP)
+
+---
+
+## 📈 Example Workflow
+
+1. Collect poll & social media data
+2. Perform preprocessing (cleaning, tokenization)
+3. Apply sentiment analysis
+4. Train forecasting model
+5. Serve predictions via chatbot interface
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to submit a Pull Request.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+---
+
+If you want, I can also:
+
+* Add a professional GitHub project description
+* Add system architecture diagram explanation
+* Provide sample Flask backend code
+* Create resume-ready project description (Data Scientist version)
+
+Tell me 🚀
